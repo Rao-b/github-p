@@ -1,0 +1,12 @@
+<suite name="NewTours Application">
+   <test name="on firefox">
+      <parameter name="Browser" value="firefox"/>
+   <classes>
+      <class name ="com.Grid.Newtours_LogInTest"/>
+   </classes>
+   </test>
+   
+   
+  
+   
+  </suite> 

@@ -1,0 +1,10 @@
+# name locator for Username Element
+ Username = Admin
+ 
+ # name locator for password element
+   Password = admin123
+   
+ # name  locator for Login element
+    LOGIN = LOGIN
+    
+    

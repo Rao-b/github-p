@@ -1,0 +1,17 @@
+package com.Grid;
+
+
+public class NewTours_LogInTest {
+	@Parameters("Browser")
+	@Test
+	public void login
+	{
+		
+		
+	}
+	
+	
+	
+	
+}
+

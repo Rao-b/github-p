@@ -1,0 +1,23 @@
+package com.NewTours;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class NewTours_LogInTest {
+
+	public static void main(String[] args) {
+		String url = "http://newtours.demoaut.com";
+		WebDriver driver = new FirefoxDriver();
+		driver.get(url);
+		String password = "tutorial";
+		WebElement username = driver.findElement(By.name("userName"));
+		username.sendKeys("tutorial");
+		WebElement password1 = driver.findElement(By.name("password"));
+		password1.sendKeys(password);
+		
+
+	}
+
+}

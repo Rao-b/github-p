@@ -1,0 +1,19 @@
+package com.Grid;
+
+import org.junit.Test;
+import org.testng.annotations.Parameters;
+
+public class NewTours_LogInTest {
+	@Parameters("Browser")
+	@Test
+	public void login
+	{
+		
+		
+	}
+	
+	
+	
+	
+}
+

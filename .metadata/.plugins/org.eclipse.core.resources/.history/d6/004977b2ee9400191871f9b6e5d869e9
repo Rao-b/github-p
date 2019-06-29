@@ -1,0 +1,7 @@
+package com.OrangeHRM1;
+
+@Runwith
+
+public class TestRunner1 {
+
+}

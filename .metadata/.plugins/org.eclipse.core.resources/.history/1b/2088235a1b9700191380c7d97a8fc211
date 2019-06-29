@@ -1,0 +1,27 @@
+package com.KeywordDriven;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class Orange_LogInTest extends BaseTest_Orange {
+	
+	@Test
+	public void logIn() throws IOException 
+	{
+		FileInputStream file = new FileInputStream("./Orange.properties");
+		Properties pr = new Properties();
+		pr.load(file);
+		driver.findElement(By.name(pr.getProperty("txtUsername"))).sendKeys(Uname);
+		driver.findElement(By.name(pr.getProperty("txtPassword"))).sendKeys("pwd");
+		driver.findElement(By.name(pr.getProperty("Submit"))).click();
+		
+		
+		
+	}
+
+}
